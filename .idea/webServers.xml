@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="531995b4-f662-4dc8-b6af-562c2566b947" name="Odea">
+        <fileTransfer rootFolder="/home/laravel" accessType="SFTP" host="213.238.179.18" port="22" sshConfigId="1ae3e3df-0346-4421-90df-5b9e3b4c85dd" sshConfig="Odea">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
