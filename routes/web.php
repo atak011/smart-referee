@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/','HomeController@index');
+Route::get('/home','HomeController@index');
+Route::get('/hakemler','RefereeController@index');
+Route::get('/match/scan','MatchController@scrap');
+
