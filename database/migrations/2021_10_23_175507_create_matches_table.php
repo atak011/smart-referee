@@ -24,7 +24,7 @@ class CreateMatchesTable extends Migration
             $table->boolean('is_cl');
             $table->boolean('is_ul');
             $table->string('result_score',5);
-            $table->tinyInteger('result');
+            $table->string('result');
             $table->timestamps();
         });
     }

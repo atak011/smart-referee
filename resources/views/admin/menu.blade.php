@@ -10,7 +10,7 @@
             </li>
 
             <li class="menu-item" aria-haspopup="true">
-                <a href="/" class="menu-link">
+                <a href="{{ route('referee.currentMatches') }}" class="menu-link">
                     <i class="menu-icon flaticon-list"></i>
                     <span class="menu-text">Güncel Maçlar</span>
                 </a>
@@ -36,7 +36,7 @@
                         </li>
                         <li class="menu-item menu-item-submenu" aria-haspopup="true"
                             data-menu-toggle="hover">
-                            <a href="" class="menu-link menu-toggle">
+                            <a href="{{ route('referee.index') }}" class="menu-link menu-toggle">
                                 <i class="menu-bullet menu-bullet-dot">
                                     <span></span>
                                 </i>
@@ -46,11 +46,21 @@
 
                         <li class="menu-item menu-item-submenu" aria-haspopup="true"
                             data-menu-toggle="hover">
-                            <a href="" class="menu-link menu-toggle">
+                            <a href="{{ route('match.index') }}" class="menu-link menu-toggle">
                                 <i class="menu-bullet menu-bullet-dot">
                                     <span></span>
                                 </i>
-                                <span class="menu-text">Maçlar</span>
+                                <span class="menu-text">Fixtür Tablosu</span>
+                            </a>
+                        </li>
+
+                        <li class="menu-item menu-item-submenu" aria-haspopup="true"
+                            data-menu-toggle="hover">
+                            <a href="{{ route('match.point') }}" class="menu-link menu-toggle">
+                                <i class="menu-bullet menu-bullet-dot">
+                                    <span></span>
+                                </i>
+                                <span class="menu-text">Hesaplanmış Puan</span>
                             </a>
                         </li>
                     </ul>
@@ -73,7 +83,7 @@
                         </li>
                         <li class="menu-item menu-item-submenu" aria-haspopup="true"
                             data-menu-toggle="hover">
-                            <a href="" class="menu-link menu-toggle">
+                            <a href="{{ route('match.parameters') }}" class="menu-link menu-toggle">
                                 <i class="menu-bullet menu-bullet-dot">
                                     <span></span>
                                 </i>
